@@ -1,0 +1,66 @@
+@model List<PurchaseHistory>
+
+
+    <div class="row">
+        <div class="col-12">
+            
+            <h1>Onaylama Sayfası</h1>
+            
+            <table class="table tabled-bordered mt-3">
+                <thead>
+                    <tr>
+
+                        <th>UserId</th>
+                        <th>MapId</th>
+                        <th>Requests</th>
+                        <th>Price</th>
+                        <th>PurchaseDate</th>
+                        <th style="width: 125px;"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var item in Model)
+                    {
+                    <tr>
+                        <td>@item.UserId</td>
+                        <td>@item.MapId</td>
+                        <td>
+                            <ul>
+                                @foreach (var property in GetShoppingCartProperties(Model))
+                                {
+                                    var value = property.GetValue(item.ShoppingCart);
+                                    @if(value is true){
+                                    <li>@property.Name</li>}
+                                }
+                            </ul>
+                        </td>
+           
+
+                        
+                        <td>@item.Price</td>
+                        <td>@item.PurchaseDate</td>
+                        }
+                        <td>
+
+                            <a asp-controller="Admin" asp-action="DeletePurchase" asp-route-id="@item.Id"
+                                class="btn btn-sm btn-primary">Decline</a>
+                            <a asp-controller="Admin" asp-action="AcceptPurchase" asp-route-id="@item.Id"
+                                class="btn btn-sm btn-primary">Accept</a>
+                        </td>
+                    </tr>
+                    }
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    @functions {
+        public List<System.Reflection.PropertyInfo> GetShoppingCartProperties(List<PurchaseHistory> model)
+        {
+            var shoppingCartType = model.FirstOrDefault()?.ShoppingCart?.GetType();
+            return shoppingCartType?.GetProperties().ToList() ?? new List<System.Reflection.PropertyInfo>();
+        }
+    }

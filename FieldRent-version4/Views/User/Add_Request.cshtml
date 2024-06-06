@@ -1,0 +1,43 @@
+
+@model MapRequestEditModel
+
+
+<form asp-controller="User" asp-action="Add_Request" method="post">
+    <div class="row">
+        <div class="col-8">
+            <div class="bg-white p-4">
+                <h2 class="mb-4">Field to Maps Connection Requests </h2>
+                <hr>
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="MapId">
+
+                
+                
+                @foreach (var item in (List<Request>)ViewBag.yyy)
+                    {
+                        <div class="form-check mb-3 ">
+                            <input class="form-check-input" 
+                                   type="checkbox" 
+                                   name="ReqIds"
+                                   value="@item.RequestId" 
+                                   id="Req_@(item.RequestId)" @(Model.MapReqCheckIds.Any(i => i.RequestId == item.RequestId) ? "checked" : "")>
+                            <label class="form-check-label" for="Req_@(item.RequestId)">
+                                @item.RequestName -> @item.RequestPrice TL
+                            </label>
+                        </div>
+        
+                    }
+
+
+
+
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+
+            </div>
+        </div>
+
+
+
+    </div>
+</form>

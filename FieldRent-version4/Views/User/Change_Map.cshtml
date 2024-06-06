@@ -1,0 +1,37 @@
+@model Map
+
+
+
+<form asp-controller="User" asp-action="Change_Map" method="post">
+    <div class="row">
+        <div class="col-8">
+            <div class="bg-white p-4">
+                <h2 class="mb-4">Field to Maps Connection Requests </h2>
+                <hr>
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                
+
+                
+                
+                
+                
+                <select name="selectId">
+                    @foreach (var map in ViewBag.maplist2)
+                    {
+                        <option value="@map.MapId">@map.MapCoordinate</option>
+                    }
+                </select>
+            
+                
+
+
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+
+            </div>
+        </div>
+
+
+
+    </div>
+</form>

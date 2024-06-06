@@ -1,0 +1,43 @@
+
+@model MapEditViewModel
+
+
+<form asp-controller="Admin" asp-action="DeleteMap" method="post">
+    <div class="row">
+        <div class="col-8">
+            <div class="bg-white p-4">
+                <h2 class="mb-4">Field to User Connection Edit </h2>
+                <hr>
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="UserId">
+
+                
+                
+                @foreach (var item in (List<Map>)ViewBag.xxx)
+                    {
+                        <div class="form-check mb-3 ">
+                            <input class="form-check-input" 
+                                   type="checkbox" 
+                                   name="MapIds"
+                                   value="@item.MapId" 
+                                   id="genre_@(item.MapId)" @(Model.MapCheckIds.Any(i => i.MapId == item.MapId) ? "" : "checked")>
+                            <label class="form-check-label" for="genre_@(item.MapId)">
+                                @item.MapCoordinate
+                            </label>
+                        </div>
+        
+                    }
+
+
+
+
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+
+            </div>
+        </div>
+
+
+
+    </div>
+</form>

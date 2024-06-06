@@ -1,0 +1,57 @@
+@model List<Map>
+
+
+    <div class="row">
+        <div class="col-12">
+            <h2>Map List</h2>
+            
+            <table class="table tabled-bordered mt-3">
+                <thead>
+                    <tr>
+
+                        <th>MapdId</th>
+                        <th>Parsel</th>
+                        <th>Harita Id</th>
+                        <th>Ek Hizmetler</th>
+                        <th>Müşteri Id</th>
+                        <th>Müşteri Adı</th>
+                        <th style="width: 125px;"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var item in Model)
+                    {
+                        <tr>
+                            <td>@item.MapId</td>
+                            <td>@item.MapCoordinate</td>
+                            <td>@item.FieldId</td>
+                            <td>
+                                <ul>
+                                    @foreach (var request in item.Requests)
+                                    {
+                                        <li>@request.RequestId -> @request.RequestName</li>
+                                    }
+                                </ul>
+                            </td>
+                            
+                            <td>@(item.UserId != null ? item.UserId : 0) </td>
+                            
+                            @if(@item.UserId != null){
+                                <td>@item.User.UserName </td>
+                            }
+                            else{
+                                <td>null </td>
+                            }
+
+
+                            <td>
+                                <a asp-controller="Admin" asp-action="Map_Requests" asp-route-id="@item.MapId" class="btn btn-sm btn-primary">Ek Hizmetler</a>
+                                <a asp-controller="Admin" asp-action="Change_Map" asp-route-id="@item.MapId" class="btn btn-sm btn-primary">Parsel Taşı</a>
+                                <a asp-controller="Admin" asp-action="DetailsMap" asp-route-id="@item.MapId" class="btn btn-sm btn-primary">Parsel Detayı</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>

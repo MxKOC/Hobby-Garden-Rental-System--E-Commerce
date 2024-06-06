@@ -1,0 +1,155 @@
+@model UserIndexViewModel
+
+
+<div class="row">
+    <div class="col-12">
+
+        @{var userNameClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name);
+        var userName = userNameClaim?.Value;}
+        <div class="mx-auto text-center my-5">
+            <h2>Hoşgeldiniz: @userName </h2>
+        </div>
+        <div class="mx-auto text-center my-5">
+            <a asp-controller="User" asp-action="FieldList" class="btn btn-sm btn-primary">Kirala</a>
+        </div>
+        <hr><hr>
+      
+
+
+
+        <div class="mx-auto text-center my-3">
+            <h2>Satın Alınanlar</h2>
+        </div>
+
+        <table class="table tabled-bordered mt-1">
+            <thead>
+                <tr>
+                    <th>Harita Id</th>
+                    <th>Arsa Id</th>
+                    <th>koordinat</th>
+                    <th>Ek Hizmetler</th>
+                    <th>Başlangıç Tarihi</th>
+                    <th>Bitiş Tarihi</th>
+
+                    <th style="width: 125px;"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model.maps)
+                {
+                <tr>
+                    <td>@item.FieldId</td>
+                    <td>@item.MapId</td>
+                    <td>@item.MapCoordinate</td>
+                    <td>
+                        <ul>
+                            @foreach (var request in item.Requests)
+                            {
+                            <li>@request.RequestName</li>
+                            }
+                        </ul>
+                    </td>
+
+                    
+                    <td>@item.MapStart</td>
+                    <td>@item.MapStop</td>
+                    <td>
+                        <a asp-controller="User" asp-action="Add_Request" asp-route-id="@item.MapId"
+                            class="btn btn-sm btn-primary btn-xs" style="font-size: 12px;">Ek Hizmet Ekle</a>
+                        <a asp-controller="User" asp-action="Change_Map" asp-route-id="@item.MapId"
+                            class="btn btn-sm btn-primary btn-xs">Yer Değiştir</a>
+                        <a asp-controller="User" asp-action="Details" asp-route-id="@item.MapId"
+                            class="btn btn-sm btn-primary btn-xs">Parsel Detayları</a>
+
+                    </td>
+                </tr>
+                }
+
+                @{var userIdClaim2 = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
+                var userId = userIdClaim2?.Value;}
+
+
+
+
+
+            </tbody>
+        </table>
+
+
+        <hr><hr><hr>
+        <div class="mx-auto text-center my-5">
+            <h2>Onay Bekleyen Satın Alımlar</h2>
+        </div>
+
+
+        <table class="table tabled-bordered mt-3">
+            <thead>
+                <tr>
+
+                    <th>Harita Id</th>
+                    <th>Parsel Id</th>
+                    <th>Ek Hizmetler</th>
+
+                    <th>Fiyat</th>
+                    <th>Satın Alma Tarihi</th>
+                    <th>Satın Alma Süresi</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model.purchaseHistories)
+                {
+                <tr>
+                    <td>@item.Map.FieldId</td>
+                    <td>@item.MapId</td>
+                    <td>
+                        <ul>
+                            @foreach (var property in GetShoppingCartProperties(Model.purchaseHistories))
+                            {
+                            var value = property.GetValue(item.ShoppingCart);
+                            @if(value is true){
+                            <li>@property.Name</li>}
+                            }
+                        </ul>
+                    </td>
+
+
+
+                    <td>@item.Price</td>
+                    <td>@item.PurchaseDate</td>
+                    <td>@item.Time</td>
+
+
+                </tr>
+                }
+
+
+
+
+
+            </tbody>
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+@functions {
+public List<System.Reflection.PropertyInfo> GetShoppingCartProperties(List<PurchaseHistory> model)
+        {
+        var shoppingCartType = model.FirstOrDefault()?.ShoppingCart?.GetType();
+        return shoppingCartType?.GetProperties().ToList() ?? new List<System.Reflection.PropertyInfo>();
+            }
+            }

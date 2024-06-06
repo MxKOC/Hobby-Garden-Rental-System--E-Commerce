@@ -1,0 +1,54 @@
+@model User
+
+<div>
+    <h2>User Details</h2>
+<hr>
+    <dl class="row">
+        <dt class="col-sm-2">
+            Kullanıcı Adı:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.UserName
+        </dd>
+
+
+        <hr>
+
+        <dt class="col-sm-2">
+            Kiraladığı Alanlar
+        </dt>
+        <dd class="col-sm-10">
+            @foreach(var item in Model.Maps)
+            @Html.Raw(item.MapCoordinate +" Fiyat:  "+ item.MapPrice +" TL"+ "<br />")
+            <br />
+        </dd>
+        <hr>
+
+        @{
+            var total = 0;
+            foreach (var item in Model.Maps)
+            {
+                total += item.MapPrice;
+            }
+        }
+        <dt class="col-sm-2">
+            Toplam Fatura
+        </dt>
+        <dd class="col-sm-10">
+            @total
+        
+        </dd>
+
+        <hr>
+
+        <dt class="col-sm-2">
+            Kiraladığı Alanlar
+        </dt>
+        <dd class="col-sm-10">
+            @foreach(var item in Model.Maps)
+            @Html.Raw(item.MapCoordinate +"==>"+" Başlangıç Tarihi: "+ item.MapStart +"   ---  Bitiş Tarihi: "+ item.MapStop + "<br />")
+            <br />
+        </dd>
+
+
+        

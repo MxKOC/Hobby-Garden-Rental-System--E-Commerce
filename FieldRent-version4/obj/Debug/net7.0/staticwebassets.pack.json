@@ -1,0 +1,445 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FieldRent.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FieldRent.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\css\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\css\\tiny-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\bag.svg",
+      "PackagePath": "staticwebassets\\images\\bag.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\bowl-2.png",
+      "PackagePath": "staticwebassets\\images\\bowl-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\bowl-3.png",
+      "PackagePath": "staticwebassets\\images\\bowl-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\cart.svg",
+      "PackagePath": "staticwebassets\\images\\cart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\couch.png",
+      "PackagePath": "staticwebassets\\images\\couch.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\cross.svg",
+      "PackagePath": "staticwebassets\\images\\cross.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\dots-green.svg",
+      "PackagePath": "staticwebassets\\images\\dots-green.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\dots-light.svg",
+      "PackagePath": "staticwebassets\\images\\dots-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\dots-yellow.svg",
+      "PackagePath": "staticwebassets\\images\\dots-yellow.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\envelope-outline.svg",
+      "PackagePath": "staticwebassets\\images\\envelope-outline.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\heart.svg",
+      "PackagePath": "staticwebassets\\images\\heart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\hero.png",
+      "PackagePath": "staticwebassets\\images\\hero.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\img-grid-1.jpg",
+      "PackagePath": "staticwebassets\\images\\img-grid-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\img-grid-2.jpg",
+      "PackagePath": "staticwebassets\\images\\img-grid-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\img-grid-3.jpg",
+      "PackagePath": "staticwebassets\\images\\img-grid-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\person-1.jpg",
+      "PackagePath": "staticwebassets\\images\\person-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\person-1.png",
+      "PackagePath": "staticwebassets\\images\\person-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\images\\person_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\images\\person_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\images\\person_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\images\\person_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\planting.png",
+      "PackagePath": "staticwebassets\\images\\planting.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\post-1.jpg",
+      "PackagePath": "staticwebassets\\images\\post-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\post-2.jpg",
+      "PackagePath": "staticwebassets\\images\\post-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\post-3.jpg",
+      "PackagePath": "staticwebassets\\images\\post-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\product-1.png",
+      "PackagePath": "staticwebassets\\images\\product-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\product-2.png",
+      "PackagePath": "staticwebassets\\images\\product-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\product-3.png",
+      "PackagePath": "staticwebassets\\images\\product-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\return.svg",
+      "PackagePath": "staticwebassets\\images\\return.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\rocket-lunch.svg",
+      "PackagePath": "staticwebassets\\images\\rocket-lunch.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\sapling-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\sapling-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\sapling.png",
+      "PackagePath": "staticwebassets\\images\\sapling.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\seed.png",
+      "PackagePath": "staticwebassets\\images\\seed.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\shopping-cart.svg",
+      "PackagePath": "staticwebassets\\images\\shopping-cart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\sofa.png",
+      "PackagePath": "staticwebassets\\images\\sofa.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\soil-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\soil-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\soil.jpg",
+      "PackagePath": "staticwebassets\\images\\soil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\support.svg",
+      "PackagePath": "staticwebassets\\images\\support.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\time-twenty-four.svg",
+      "PackagePath": "staticwebassets\\images\\time-twenty-four.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\truck.svg",
+      "PackagePath": "staticwebassets\\images\\truck.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\user.svg",
+      "PackagePath": "staticwebassets\\images\\user.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\images\\why-choose-us-img.jpg",
+      "PackagePath": "staticwebassets\\images\\why-choose-us-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mkoc\\Desktop\\FieldRent-version4\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FieldRent.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FieldRent.props",
+      "PackagePath": "build\\FieldRent.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FieldRent.props",
+      "PackagePath": "buildMultiTargeting\\FieldRent.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FieldRent.props",
+      "PackagePath": "buildTransitive\\FieldRent.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

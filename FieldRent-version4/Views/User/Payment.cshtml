@@ -1,0 +1,46 @@
+@model PaymentDetail
+
+<div class="row">
+    <div class="col-12">
+        <div class="bg-white p-4">
+            <h1>Satın Alma</h1>
+            
+            <form asp-controller="User" asp-action="Payment" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                @for(int i = 0; i < Model.MapIds.Count(); i++) 
+                { @Html.HiddenFor(model=> model.MapIds[i])}
+                @for(int i = 0; i < Model.ShoppingCartIds.Count; i++) 
+                { @Html.HiddenFor(model=> model.ShoppingCartIds[i])}
+                    
+                    <input type="hidden" asp-for="UserId">
+                    <input type="hidden" asp-for="Time">
+                    <div class="mb-3">
+                        <label asp-for="CardNumber" class="form-label"></label>
+                        <input asp-for="CardNumber" class="form-control">
+                        <span asp-validation-for="CardNumber" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="FullName" class="form-label"></label>
+                        <input asp-for="FullName" class="form-control">
+                        <span asp-validation-for="FullName" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="LastMonth" class="form-label"></label>
+                        <input asp-for="LastMonth" class="form-control">
+                        <span asp-validation-for="LastMonth" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="LastYear" class="form-label"></label>
+                        <input asp-for="LastYear" class="form-control">
+                        <span asp-validation-for="LastYear" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Cvc" class="form-label"></label>
+                        <input asp-for="Cvc" class="form-control">
+                        <span asp-validation-for="Cvc" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Pay</button>
+            </form>
+        </div>
+    </div>
+</div>

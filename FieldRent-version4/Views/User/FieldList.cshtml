@@ -1,0 +1,33 @@
+@model List<Field>
+
+
+<table class="table tabled-bordered mt-3">
+    <thead>
+        <tr>
+
+            <th>Harita ID</th>
+            <th>Harita İsmi</th>
+
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+        <tr>
+            <td>@item.FieldId</td>
+            <td>@item.FieldCoordinate</td>
+            @{var userIdClaim2 = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
+                var userId = userIdClaim2?.Value;}
+            <td>
+                <a asp-controller="User" asp-action="Rent_Map" asp-route-userid="@userId" asp-route-fieldid="@item.FieldId"
+                    class="btn btn-sm btn-primary">Parsel Sayfasına Git</a>
+            </td>
+        </tr>
+        }
+        
+
+
+
+    </tbody>
+</table>

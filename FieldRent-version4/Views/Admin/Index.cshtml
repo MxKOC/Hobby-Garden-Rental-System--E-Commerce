@@ -1,0 +1,49 @@
+@model List<User>
+
+
+    <div class="row">
+        <div class="col-12">
+            <h2>User List</h2>
+            
+            <table class="table tabled-bordered mt-3">
+                <thead>
+                    <tr>
+
+                        <th>Name</th>
+                        
+                        <th>Maps</th>
+                        <th style="width: 125px;"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var item in Model)
+                    {
+                        <tr>
+
+                            <td>@item.UserName</td>
+                            
+
+                            <td>
+                                <ul>
+                                    @foreach (var map in item.Maps)
+                                    {
+                                        <li>@map.MapCoordinate</li>
+                                    }
+                                </ul>
+                            </td>
+
+
+
+
+                           
+                            <td>
+                                <a asp-controller="Admin" asp-action="DeleteMap" asp-route-id="@item.UserId" class="btn btn-sm btn-primary">Map Delete</a>
+                                <a asp-controller="Admin" asp-action="Details" asp-route-id="@item.UserId" class="btn btn-sm btn-primary">Details</a>
+                                <a asp-controller="Admin" asp-action="firstUserMap" asp-route-id="@item.UserId" class="btn btn-sm btn-primary">User Entrance</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
